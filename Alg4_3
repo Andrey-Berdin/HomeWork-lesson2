@@ -1,0 +1,22 @@
+/**
+ * Created by Андрей on 06.03.2017.
+ */
+public class Alg4_3 {
+    public static void main(String[] args) {
+        /*
+            Дан массив целых чисел.
+            Реализовать алгоритм для поиска числа n
+            в массиве a за один проход.
+         */
+        int [] array = {18,24,39,47,52,64,72,81};
+        for ( int x : array) System.out.printf(x + " "); // Для наглядности, выводим массив на экран
+        System.out.println();
+        int value = 47; // Задаем значение для поиска
+        for (int x : array)
+            if ( x == value) {
+            System.out.println("Найдено " + value);
+            return;
+            }
+            System.out.println( value + "Не найдено");
+    }
+}
