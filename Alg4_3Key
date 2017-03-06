@@ -7,7 +7,7 @@ public class Alg4_3Key {
         Scanner scan = new Scanner(System.in);
         int[] array = new int[8]; // Кол-во элементов массива вводимых пользователем.
         System.out.println("Введите восемь чисел: ");
-        int value = 47;
+        int value = 47; // число которое нужно найти
         for (int i = 0; i < 8; i++) {
             // считываем введеное пользователем числа
             array[i] = scan.nextInt();
